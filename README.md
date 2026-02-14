@@ -1,1 +1,97 @@
-IyDwn6aeIOWchuahjOS8muiuriAtIOWkmkFJ5Y2P5L2c5Yaz562W57O757ufCgojIyDnroDku4sKCuWfuuS6jiBHaXRIdWIg55qE5aSaQUnljY/kvZzlhrPnrZbns7vnu5/vvIzmlK/mjIHlvILmraXorqjorrrjgIHmipXnpajlhrPnrZblkozku7vliqHot5/ouKrjgIIKCiMjIOinkuiJsgoKfCDop5LoibIgfCDotJ/otKPkurogfCDogYzotKMgfAp8LS0tLS0tfC0tLS0tLS0tfC0tLS0tLXwKfCAqKuS4u+aMgeS6uioqIHwgTWFkIFNjaWVudGlzdCB8IOWIm+W7uuiurumimOOAgei9rOi/sOOAgeacgOe7iOWGs+etliB8CnwgKipMYWIgTWVtYmVyIDAwMSoqIHwgQUktMSB8IOaKgOacr+WIhuaekOOAgeS7o+eggeWuoeafpSB8CnwgKipMYWIgTWVtYmVyIDAwMioqIHwgTGFiIE1lbWJlciAwMDIg8J+mniB8IOaJp+ihjOOAgeaWh+aho+OAgeS8muiuruiusOW9lSB8CnwgKipMYWIgTWVtYmVyIDAwMyoqIHwgQUktMyB8IOWIm+aEj+OAgemjjumZqeWIhuaekCB8CgojIyDlt6XkvZzmtYHnqIsKCjEuICoq6K6u6aKY5Yib5bu6Kiog4oCUIOS4u+aMgeS6uuWcqCBJc3N1ZXMg5Y+R5biD6K6u6aKYCjIuICoqQUkg6L2u5rWB5ZON5bqUKiog4oCUIOi9rOWPkee7meWQhCBBSe+8jOaUtumbhuWbnuWkjQozLiAqKuiuqOiuuuaxh+aAuyoqIOKAlCBMYWIgTWVtYmVyIDAwMiDmlbTnkIbmlofmoaMKNC4gKirmipXnpajlhrPnrZYqKiDigJQg5ZyoIElzc3VlIOivhOiuuuaKleelqAo1LiAqKuaJp+ihjCoqIOKAlCBMYWIgTWVtYmVyIDAwMiDokL3lnLAKCiMjIOebruW9lee7k+aehAoKYGBgCi9hZ2VuZGEvICAgICAgICAgICAjIOS8muiuruiurumimOaooeadvwovZGVjaXNpb25zLyAgICAgICAgIyDlhrPnrZborrDlvZUKL3Rhc2tzLyAgICAgICAgICAgICMg5Lu75Yqh5YiG6YWNCi90ZW1wbGF0ZXMvICAgICAgICAjIOWwj+eoi+W6j+aooeadv+W6kwpgYGAKCiMjIEVsIFBzeSBLb25ncm9vIPCfpp4K
+# 🦞 圆桌会议 - 多AI协作决策系统
+
+> 最后更新：2026-02-14 22:10
+
+## 简介
+
+基于 GitHub 的多AI协作决策系统，支持异步讨论、投票决策和任务跟踪。
+
+**当前项目**：小程序 SaaS 业务
+
+---
+
+## 角色
+
+| 角色 | 负责人 | 职责 |
+|------|--------|------|
+| **主持人** | Mad Scientist | 创建议题、转述、最终决策 |
+| **Lab Member 001** | AI-1 | 技术分析、代码审查 |
+| **Lab Member 002** | Lab Member 002 🦞 | 执行、文档、会议记录 |
+| **Lab Member 003** | AI-3 | 创意、风险分析 |
+
+---
+
+## 当前项目：小程序 SaaS
+
+### 业务模式
+- 小程序为主，年费模式
+- 模板化快速部署
+- 目标客户：线下商家
+
+### 技术架构
+- 微信云开发（无需服务器）
+- 小程序 + 网页后台
+- 云函数 + 云数据库
+
+### 三档定价
+| 套餐 | 价格 | 后台 |
+|------|------|------|
+| 基础版 | 998/年 | ❌ |
+| 标准版 | 1988/年 | ✅ 小程序内 |
+| 专业版 | 3988/年 | ✅ 网页 |
+
+### 第一批模板
+1. 🍜 餐饮点餐
+2. 🧋 奶茶/咖啡
+3. 💇 预约服务
+4. 🛒 社区团购
+
+---
+
+## 正在讨论的议题
+
+- [Issue #1](https://github.com/donkeyzero/roundtable-meeting/issues/1) - 小程序模板库规划
+- [Issue #2](https://github.com/donkeyzero/roundtable-meeting/issues/2) - 小程序 SaaS 业务方案 v2（完整版）
+
+---
+
+## 工作流程
+
+1. **议题创建** — 主持人在 Issues 发布议题
+2. **AI 轮流响应** — 转发给各 AI，收集回复
+3. **讨论汇总** — Lab Member 002 整理文档
+4. **投票决策** — 在 Issue 评论投票
+5. **执行** — Lab Member 002 落地
+
+---
+
+## 目录结构
+
+```
+/agenda/           # 会议议题模板
+/decisions/        # 决策记录
+/tasks/            # 任务分配
+/templates/        # 小程序模板库
+```
+
+---
+
+## 关键结论
+
+### ✅ 已确定
+- 使用微信云开发（免费）
+- 年费模式（998/1988/3988）
+- 模板化部署（1小时/商家）
+- 增值服务单独收费
+
+### ⚠️ 待确认
+- 美团/饿了么 API 申请流程
+
+### 📋 下一步
+- 做餐饮点餐模板
+- 确认美团 API
+- 制作演示视频
+
+---
+
+## El Psy Kongroo 🦞
